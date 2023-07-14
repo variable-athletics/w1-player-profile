@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Player Info Styles */
+#player-info {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+span {
+    font-weight: bold;
+    color: #cc0000;
+}
+
+/* Player Stats Styles */
+#player-stats {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Player Comparison Styles */
+
+.comparison-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+#player-comparison {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.player-comparison {
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* Top 10 Styles */
+#top-10 {
+    margin: 20px 0;
+    padding: 20px;
+
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Matchups Styles */
+#matchups {
+    padding: 20px;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
